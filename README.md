@@ -18,5 +18,8 @@ When the time comes to swap out the date library (Luxon to date-fns), we'll alwa
 
 ![With abstraction](docs/images/abstracted-date-fns.png?raw=true "With abstraction")
 
-Here is the 
-[initial abstraction layer being added](https://github.com/justinkprince/abstract-libs/commit/7c5f9d2dd13c60e637a47563fe41ca5ed488917e#diff-06190e0db96fe0cc57b9e8bdfd54afe932f1e0f83762837680640630e389e7c1)
+Here is the commit that adds 
+[an initial abstraction layer](https://github.com/justinkprince/abstract-libs/commit/7c5f9d2dd13c60e637a47563fe41ca5ed488917e#diff-06190e0db96fe0cc57b9e8bdfd54afe932f1e0f83762837680640630e389e7c1).
+
+Here is the commit that actually [swaps out the libraries being used](https://github.com/justinkprince/abstract-libs/commit/3d9331b730c6afa0ce97d256540c2d78c55ff281).
+
