@@ -17,3 +17,6 @@ This time, we've added a layer (`dateutils.js`) between the components that use 
 When the time comes to swap out the date library (Luxon to date-fns), we'll always only have to make the change in a single touchpoint, `dateutils.js`.
 
 ![With abstraction](docs/images/abstracted-date-fns.png?raw=true "With abstraction")
+
+Here is the 
+[initial abstraction layer being added](https://github.com/justinkprince/abstract-libs/commit/7c5f9d2dd13c60e637a47563fe41ca5ed488917e#diff-06190e0db96fe0cc57b9e8bdfd54afe932f1e0f83762837680640630e389e7c1)
