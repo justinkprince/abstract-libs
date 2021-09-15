@@ -1,10 +1,8 @@
-const { DateTime } = require("luxon");
-
-const now = DateTime.local();
+const getRelativeDaysAgo = require("../dateutils");
 const daysAgo = 4;
 
 const one = {
-  getLastUpdated: () => now.minus({ days: daysAgo }).toRelativeCalendar(),
+  getLastUpdated: () => getRelativeDaysAgo(daysAgo),
 };
 
 module.exports = one;
